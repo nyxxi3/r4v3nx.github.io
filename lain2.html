@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane's World</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #d4d4d4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #000;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            color: #00ffff;
+            font-size: 2em;
+        }
+        header .ascii-art {
+            color: #00ffff;
+            text-align: center;
+        }
+        header .social-icons img {
+            width: 24px;
+            margin-left: 10px;
+        }
+        main {
+            max-width: 800px;
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #111;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #00ffff;
+            font-size: 1.5em;
+        }
+        .quote {
+            font-style: italic;
+            color: #00ffff;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .liminal-image {
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        .liminal-image:hover {
+            opacity: 1;
+        }
+        a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            section h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <div class="ascii-art">
+            <pre>
+ ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓███████▓▒░░▒▓████████▓▒░▒▓███████▓▒░  
+░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓███████▓▒░░▒▓██████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ 
+ ░▒▓█████████████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░  
+            </pre>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm Jane. I have a passion for playing The Sims, exploring new tech, and blogging about my experiences in simple, understandable language.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Coming soon: A showcase of my latest Sims creations and tech experiments.</p>
+            <img src="https://i.redd.it/gyi17uhat5t71.png" alt="Liminal Space 1" class="liminal-image">
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Stay tuned for my latest blog posts where I simplify tech concepts and share my adventures in The Sims.</p>
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/576820758911213449/ED8811473BDDB898792B4DAA16A2B168A8FF447A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Liminal Space 2" class="liminal-image">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:jane@example.com">jane@example.com</a>.</p>
+        </section>
+        <section id="quotes">
+            <h2>Quotes</h2>
+            
+            <p class="quote">"Reality is merely an illusion, albeit a very persistent one." - Albert Einstein</p>
+            <p class="quote">"No matter where you go, everyone's connected."</p>
+            <p class="quote">"Why don't you stay in the Wired? Isn't that what you want?" </p>
+            <p class="quote">"If you aren't remembered, then you never existed." </p>
+            <p class="quote">"There's no place to hide in the Wired." - Lain</p>
+            <img src="https://preview.redd.it/on7f8w85dag51.jpg?width=1080&crop=smart&auto=webp&s=ac23264128b110187f697bc40183d5a2116ecbdb" alt="Liminal Space 3" class="liminal-image">
+        </section>
+    </main>
+</body>
+</html>
